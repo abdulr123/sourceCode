@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website-ku</title>
+</head>
+<body>
+    nilai a = <b id="a"></b> dan nilai b = <b id="b"></b>
+    <br><br>
+    hasil dari a + b =<b id="tambah"></b><br>
+    hasil dari a - b =<b id="kurang"></b><br>
+    hasil dari a x b =<b id="kali"></b><br>
+    hasil dari a<sup>b</sup> =<b id="pangkat"></b><br>
+    hasil dari a / b =<b id="bagi"></b><br>
+    hasil dari a % b =<b id="bagi-sisa"></b><br>
+    hasil dari a++ =<b id="increment"></b><br>
+    hasil dari a-- =<b id="decrement"></b><br>
+    
+    <script>
+        //deklarasi
+        var a = 3;
+        var b = 5;
+        //menampilkan nilai a dan b
+        document.getElementById("a").innerHTML= a; 
+        document.getElementById("b").innerHTML= b;
+        //dibawah ini adalah proses operasinya
+        document.getElementById("tambah").innerHTML= a+b;
+        document.getElementById("kurang").innerHTML= a-b;
+        document.getElementById("kali").innerHTML= a*b;
+        document.getElementById("pangkat").innerHTML= a**b;
+        document.getElementById("bagi").innerHTML= a/b;
+        document.getElementById("bagi-sisa").innerHTML= a%b;
+        document.getElementById("increment").innerHTML= a++;
+        document.getElementById("decrement").innerHTML= a--;
+    </script>
+</body>
+</html>

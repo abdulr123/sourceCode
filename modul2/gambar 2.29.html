@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website-ku</title>
+</head>
+<body>
+    Kendaraan anda: <b id="tampil"></b>
+
+    <script>
+        //deklarasi
+        var kendaraan = "sepeda";
+        //menampilkan nilai
+        switch(kendaraan){
+            case("mobil"):
+            document.getElementById("tampil").innerHTML= "Sebuah kendaraan roda empat: Mobil";
+            break;
+            case("motor"):
+            document.getElementById("tampil").innerHTML= "Sebuah kendaraan roda dua: Motor";
+            break;
+            case("sepeda"):
+            document.getElementById("tampil").innerHTML= "Sebuah kendaraan yang trend saat ini: Sepeda!";
+            break;
+            default:
+            document.getElementById("tampil").innerHTML="tidak ada kendaraan";
+        }
+    </script>
+</body>
+</html>

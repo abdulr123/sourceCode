@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website-ku</title>
+</head>
+<body>
+    apakah  <b id="nilai-a"></b> sama dengan <b id="nilai-b"></b>? <b id="nilai-c"></b>
+    <script>
+        //deklarasi
+        var a = 2;
+        var b = 3;
+        //menampilkan nilai a dan b
+        document.getElementById("nilai-a").innerHTML= a;
+        document.getElementById("nilai-b").innerHTML= b;
+        if (a==b){
+            //jika nilai a dan b adalah sama
+            document.getElementById("nilai-c").innerHTML="nilai sama";
+        } else {
+            //jika nilai a dan b adalah tidak sama
+            document.getElementById("nilai-c").innerHTML="nilai berbeda";
+        }
+    </script>
+</body>
+</html>
