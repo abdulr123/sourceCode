@@ -1,0 +1,16 @@
+h2 {
+    color: orange;
+}
+table {
+    width: 100%;
+}
+tr:nth-child(even) {
+    background-color: #eee8aa;
+}
+th {
+    padding: 10px;
+    background: orange;
+}
+td {
+    padding: 10px;
+}

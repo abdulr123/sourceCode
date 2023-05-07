@@ -1,0 +1,1 @@
+document.getElementById("hasil").innerHTML="ini tulisan dari file Javascript";

@@ -1,0 +1,15 @@
+form {
+    border: double royalblue;
+    padding: 10px;
+}
+input {
+    padding: 5px;
+    margin: 5px;
+}
+[type=submit], [type=reset] {
+    background-color: royalblue;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: yellow;
+}

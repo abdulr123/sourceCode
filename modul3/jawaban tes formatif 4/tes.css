@@ -1,0 +1,10 @@
+b {
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 30px;
+    border: 1px dotted grey;
+    margin: 5px;
+    border-radius: 5px;
+}

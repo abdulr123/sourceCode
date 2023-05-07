@@ -1,0 +1,16 @@
+.atur-teks {
+    display: inline-block;
+    padding: 20px;
+    margin: 5px;
+    background-color: aqua;
+}
+#merah {
+    color: red;
+}
+#biru {
+    color: blue;
+}
+#kuning {
+    color: yellow;
+    background-color: purple;
+}
