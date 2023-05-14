@@ -1,0 +1,9 @@
+ol{
+    border: 1px solid orange;
+    border-radius: 10px;
+    display: inline-block;
+}
+li {
+   color: orange;
+   padding: 15px;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Vue.JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <p id="biru" v-if="warna == 'biru'">tulisan ini adalah biru</p>
+        <p id="merah" v-else-if="warna == 'merah'">tulisan ini adalah merah</p>
+        <p id="hijau" v-else-if="warna == 'hijau'">tulisan ini adalah hijau</p>
+        <p id="orange" v-else-if="warna == 'orange'">tulisan ini adalah orange</p>
+        <p id="coklat" v-else>tulisan ini adalah coklat</p>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>
