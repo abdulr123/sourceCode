@@ -5,8 +5,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="app" v-if="bilangan1 < bilangan2">
-        <p>Pesan ini akan tampil jika bilangan 1 lebih kecil dari bilangan 2</p>
+    <div id="app">
+        <form>
+            tanggal lahir anda: <input type="date" name="tanggal_lahir" v-model="lahir"> <br>
+        </form><br>
+        tanggal lahir anda: 
+        <p v-if="lahir != ''">{{hasil}}</p>
     </div>  
     
     <script src="Vue.min.js"></script>

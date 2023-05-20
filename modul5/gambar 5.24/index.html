@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Vue.JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <form>
+            Jenis kelamin anda: <br>
+            Laki-laki<input type="radio" name="jenis_kelamin" value="Laki-laki" v-model="kelamin"> <br>
+            Perempuan<input type="radio" name="jenis_kelamin" value="Perempuan" v-model="kelamin"> <br>
+        </form><br>
+        <p>{{hasil}}</p>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Vue.JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <form>
+            tanggal lahir anda: <input type="date" name="tanggal_lahir" v-model="lahir"> <br>
+        </form><br>
+        tanggal lahir anda: 
+        <table v-if="lahir != ''">
+        <tr>
+            <td>Tanggal</td>
+            <td>:</td>
+            <td>{{tanggal}}</td>
+        </tr>
+        <tr>
+            <td>Bulan</td>
+            <td>:</td>
+            <td>{{bulan}}</td>
+        </tr>
+        <tr>
+            <td>Tahun</td>
+            <td>:</td>
+            <td>{{tahun}}</td>
+        </tr>
+    </table>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

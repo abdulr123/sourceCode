@@ -5,8 +5,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="app" v-if="bilangan1 < bilangan2">
-        <p>Pesan ini akan tampil jika bilangan 1 lebih kecil dari bilangan 2</p>
+    <div id="app">
+        <form>
+            Komentar anda: <br>
+            <textarea name="komentar" v-model="komen" cols="50" rows="10"></textarea>
+        </form><br>
+        Komentar anda: 
+        <p>{{komen}}</p>
     </div>  
     
     <script src="Vue.min.js"></script>

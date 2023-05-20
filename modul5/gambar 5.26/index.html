@@ -6,12 +6,12 @@
 </head>
 <body>
     <div id="app">
-        <p v-if="bilangan1 > bilangan2">
-            bilangan 1 lebih besar dari bilangan 2
-        </p>
-        <p v-else>
-            bilangan 1 lebih kecil dari bilangan 2
-        </p>
+        Masukkan bilangan 1: <br>
+        <input type="text" v-model="bil1"><br>
+        Masukkan bilangan 2: <br>
+        <input type="text" v-model="bil2"> <br>
+        <button @click="proses">Prosess</button>
+        <p>{{hasil}}</p>
     </div>  
     
     <script src="Vue.min.js"></script>

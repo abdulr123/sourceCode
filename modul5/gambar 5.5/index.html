@@ -5,8 +5,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="app" v-if="bilangan1 < bilangan2">
-        <p>Pesan ini akan tampil jika bilangan 1 lebih kecil dari bilangan 2</p>
+    <div id="app">
+        <p :title="tooltip1">Lorem ipsum dolor sit amet consectetur</p>
+        <p :title="tooltip2">Lorem ipsum dolor sit amet consectetur</p>
     </div>  
     
     <script src="Vue.min.js"></script>

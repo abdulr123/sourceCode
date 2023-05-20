@@ -1,7 +1,6 @@
 var app = new Vue({
     el: '#app',
     data: {
-        bilangan1: 3,
-        bilangan2: 4
+        komen:''//petik tunggal, buka dan tutup
     }
 })

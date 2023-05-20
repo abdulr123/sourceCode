@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Vue.JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <form>
+            <h3>Biodata Ringkas</h3>
+            Nama: <br>
+            <input type="text" name="nama" v-model="nama"> <br>
+            Tempat / Tanggal Lahir: <br>
+            <input type="text" name="tempat_lahir" v-model ="tempat">
+            <input type="date" name="tanggal_lahir" v-model ="tanggal">
+
+        </form><br>
+        <p>Hallo {{nama}}, anda lahir di {{tempat}} pada tanggal {{tanggal}}</p>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

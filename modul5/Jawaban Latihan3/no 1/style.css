@@ -1,0 +1,13 @@
+table {
+    background: azure;
+    padding: 10px;
+}
+td {
+    padding: 5px;
+}
+button {
+    padding: 10px;
+    background: royalblue;
+    border:none;
+    color: azure;
+}
