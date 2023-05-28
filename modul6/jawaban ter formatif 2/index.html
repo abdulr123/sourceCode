@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Merubah ukuran cm ke ...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        angka 1 = <b v-text="angka1"></b> <br>
+        angka 2 = <b v-text="angka2"></b> <br>
+
+        <table>
+          <tr>
+            <th>Operasi</th>
+            <th>hasil</th>
+          </tr>
+          <tr>
+            <td>Penjumlahan</td>
+            <td> {{ angka1 + angka2 }} </td>
+          </tr>
+          <tr>
+            <td>pengurangan</td>
+            <td> {{ angka1 - angka2 }} </td>
+          </tr>
+          <tr>
+            <td>Perkalian</td>
+            <td> {{ angka1 * angka2 }} </td>
+          </tr>
+          <tr>
+            <td>Pembagian</td>
+            <td> {{ angka1 / angka2 }} </td>
+          </tr>
+        </table>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

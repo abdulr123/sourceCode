@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Vue.JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <p :class="align">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi eius temporibus minima nisi animi accusamus quis officia consequuntur aliquid ullam et, beatae nemo quisquam, praesentium impedit maiores sit reiciendis. Saepe!</p>
+        <form> 
+            Rata Kiri 
+            <input 
+                type="radio" 
+                value="kiri" 
+                v-model="align"> |
+            Rata Tengah 
+            <input 
+                type="radio" 
+                value="tengah" 
+                v-model="align"> |
+            Rata Kanan-Kiri
+            <input 
+                type="radio" 
+                value="kanankiri" 
+                v-model="align"> |
+            Rata Kanan
+            <input 
+                type="radio" 
+                value="kanan" 
+                v-model="align">
+        </form>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

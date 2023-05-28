@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Vue.JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <form> ketikkan nama warna:
+            <input type="text" name="warna_teks" v-model="warna">
+        </form>
+        <h2 :class="warna">Tulisan Berubah warna</h2>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+#judul {
+    color: green;
+    padding-bottom: 10px;
+}
+td {
+    text-align: center;
+    color: grey;
+}
+input, select {
+    padding: 5px;
+    border: green 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+#hasil {
+    background: green;
+    border-radius: 5px;
+    color: white;
+}

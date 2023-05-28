@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <form>
+        <table>
+            <tr>
+                <td colspan="3" id="judul">
+                    Konversi <sup>o</sup>C
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <input 
+                    type="text" 
+                    v-model="celcius">
+                </td>
+                <td>
+                    <input 
+                    type="button" 
+                    value="ke Fahrenheit"
+                    @click="fahrenheit">
+                </td>
+                <td rowspan="2" id="hasil" v-html= "hasil"> </td>
+            </tr>
+            <tr>
+                <td>
+                    <input 
+                    type="button" 
+                    value="ke Kelvin"
+                    @click="kelvin">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+#merah, #kuning, #hijau, #biru, #non {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+#merah {
+    background: red;
+}
+#kuning {
+    background: yellow;
+    color: black;
+}
+#hijau {
+    background: green;
+}
+#biru {
+    background: blue;
+}
+#non {
+    background: grey;
+}

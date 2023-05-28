@@ -7,29 +7,23 @@
 </head>
 <body>
     <div id="app">
-      
-            <h3>Biodata Ringkas</h3>
-
-
+        <h3>Biodata Ringkas</h3>
         <form>
-            <div class="mb-3">
+            <div class="mb-3 w-25">
             <label for="nama" class="form-label">Nama Lengkap</label>
             <input type="text" name="nama" v-model="nama" class="form-control" id="nama">
             </div>
 
-            <div class="mb-3">
+            <div class="mb-3 w-25">
             <label for="tempatlahir" class="form-label">Tempat Lahir</label>
             <input type="text" name="tempat_lahir" v-model ="tempat" class="form-control" id="tempatlahir">
             </div>
 
-            <div class="mb-3">
+            <div class="mb-3 w-25">
             <label for="tanggal" class="form-label">Tanggal Lahir</label>
             <input type="date" name="tanggal_lahir" v-model ="tanggal" class="form-control" id="tanggal">
             </div>
-
-
         </form>
-
         <p>Hallo {{nama}}, anda lahir di {{tempat}} pada tanggal {{tanggal}}</p>
     </div>  
 

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <button @click="show" v-show="!tampil">Register</button>
+        <form v-show="tampil">
+            <a href="#" @click="tutup">X</a>
+            <h2>Register</h2>
+            <table>
+            <tr>
+                <td>
+                    <input 
+                    type="text" 
+                    name="nama1" 
+                    placeholder="Nama depan"
+                    v-model="nama1">
+                </td>
+                <td>
+                    <input 
+                    type="text" 
+                    name="nama2" 
+                    placeholder="Nama belakang"
+                    v-model="nama2">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="Alamat Email"
+                    v-model="email">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input 
+                    type="password" 
+                    name="password" 
+                    placeholder="Kata sandi"
+                    v-model="password">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="tanggal">
+                    Tanggal Lahir
+                    <input 
+                    type="date" 
+                    name="tanggal_lahir" 
+                    v-model="tanggal">
+                </td>
+            </tr>
+            <tr>
+                <td class="kelamin">
+                    Laki-laki
+                    <input 
+                    type="radio" 
+                    name="kelamin" 
+                    value="Laki-laki"
+                    v-model="kelamin">
+                </td>
+                <td class="kelamin">
+                    Perempuan
+                    <input 
+                    type="radio" 
+                    name="kelamin" 
+                    value="Perempuan"
+                    v-model="kelamin">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">{{keterangan}}</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Daftar" v-show="submit">
+                </td>
+            </tr>
+            </table>
+        </form>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

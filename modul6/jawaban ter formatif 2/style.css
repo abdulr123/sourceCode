@@ -1,0 +1,13 @@
+table {
+    width: 200px;
+}
+tr:nth-child(odd) {
+    background-color: lightgoldenrodyellow;
+}
+th {
+    padding: 10px;
+    background: lightblue;
+}
+td {
+    padding: 10px;
+}

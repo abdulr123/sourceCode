@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <form>
+        <table>
+            <tr>
+                <td colspan="3" id="judul">
+                    <h2>Simple Calculator</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>Bilangan 1</td>
+                <td>Operasi</td>
+                <td>Bilangan 2</td>
+            </tr>
+            <tr>
+                <td>
+                    <input 
+                    type="text" 
+                    name="input_bil1" 
+                    v-model="bil1">  
+                </td>
+                <td>
+                    <select v-model="operasi">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">x</option>
+                        <option value="/">/</option>
+                    </select>
+                </td>
+                <td>
+                    <input 
+                    type="text" 
+                    name="input_bil2" 
+                    v-model="bil2">  
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="hasil">
+                    <h1>{{hasil}}</h1>
+                </td>
+            </tr>
+        </table>
+        </form>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+form {
+    width: 400px;
+    border:1px lightgrey solid;
+    padding:10px 0 10px 0;
+}
+a{
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+    margin: 0;
+}
+table {
+    margin: auto;
+}
+[type="text"],[type="email"],[type="password"],[type="date"] {
+    padding:10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#tanggal {
+    color: grey;
+}
+.kelamin, [type="submit"] {
+    padding:10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+[type="submit"]{
+    margin: auto;
+    display: block;
+    width: 150px;
+}
+ 

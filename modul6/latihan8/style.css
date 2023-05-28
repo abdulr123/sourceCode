@@ -1,0 +1,19 @@
+p {
+    padding: 20px;
+    border: 1px dashed orange;
+}
+form {
+    text-align: center;
+}
+.kiri {
+    text-align: left;
+}
+.tengah {
+    text-align: center;
+}
+.kanankiri {
+    text-align: justify;
+}
+.kanan {
+    text-align: right;
+}
