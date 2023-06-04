@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <form>
+          <p>Decrement & Increment</p>
+          <input 
+          type="button" 
+          value="-" 
+          @click="decrement">
+
+          <input 
+          type="text" 
+          v-model="hasil" 
+          :value="hasil">
+
+          <input 
+          type="button" 
+          value="+" 
+          @click="increment">
+        </form>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

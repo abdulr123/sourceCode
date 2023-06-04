@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h2>Data Anggota:</h2> 
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Jenis Kelamin</th>
+                <th>Umur</th>
+                <th>Hobby</th>
+            </tr>
+            <tr v-for="(a, index) in anggota">
+                <td>{{ index + 1 }}</td>
+                <td>{{ a.nama }}</td>
+                <td>{{ a.jenis }}</td>
+                <td>{{ a.umur }}</td>
+                <td>{{ a.hobby }}</td>
+            </tr>
+        </table>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

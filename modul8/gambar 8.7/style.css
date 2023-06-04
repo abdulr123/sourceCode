@@ -1,0 +1,15 @@
+table {
+    background: lightgreen;
+    padding: 10px;
+}
+td {
+    padding: 5px;
+}
+button {
+    padding: 10px;
+    background: green;
+    border:none;
+    color: white;
+    margin-right: 0;
+    margin-top: 10px;
+}

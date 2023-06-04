@@ -1,0 +1,26 @@
+[type="text"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid royalblue;
+    width: 250px;
+}
+button {
+    margin: 10px;
+    border-radius: 5px;
+    background: royalblue;
+    border: none;
+    color: white;
+    padding: 15px;
+}
+@keyframes animasi {
+    0% { transform: scale(0); }
+    25% { transform: scale(2); }
+    75% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+.v-enter-active {
+    animation: animasi .7s;
+}
+.v-leave-active {
+    animation: animasi .7s reverse;
+}

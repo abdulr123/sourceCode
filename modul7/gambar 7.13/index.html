@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Vue.JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <p>Nama Anggota:</p> 
+        <ul>
+            <li v-for="a in anggota">
+                Nama: {{ a.nama }},
+                Jenis Kelamin: {{ a.jenis }},
+                Umur: {{ a.umur }},
+                Hobby: {{ a.hobby }}
+            </li>
+        </ul>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

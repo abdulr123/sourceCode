@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <input 
+        type="text" 
+        placeholder="pastikan kursor ada disini"
+        @keyup.ctrl.65='pesan("ctrl+A")'
+        @keyup.ctrl.66='pesan("ctrl+B")'
+        @keyup.alt.65='pesan("alt+A")'
+        @keyup.alt.66='pesan("alt+B")'
+        @keyup.shift.65='pesan("shift+A")'
+        @keyup.shift.66='pesan("shift+B")'
+        ><br>
+        <p id="orange">{{hasil}}</p>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Latihan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <input 
+        type="text" 
+        placeholder="pastikan kursor ada disini"
+        @keyup.enter='pesan("enter")'
+        @keyup.delete='pesan("delete")'
+        @keyup.esc='pesan("esc")'
+        @keyup.space='pesan("space")'
+        @keyup.up='pesan("panah atas")'
+        @keyup.down='pesan("panah bawah")'
+        @keyup.left='pesan("panah kiri")'
+        @keyup.right='pesan("panah kanan")'
+        ><br>
+        <p id="orange">{{hasil}}</p>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

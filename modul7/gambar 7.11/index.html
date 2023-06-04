@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar Vue.JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <form>
+            Pilih Hobi anda:
+            <div v-for="hb in hobby">
+                {{hb}} <input 
+                        type="checkbox" 
+                        name="hoby" 
+                        :value="hb" 
+                        v-model="get_hobby">
+            </div>
+        <p>daftar hobi anda:</p> 
+        <ul>
+            <li v-for="ghb in get_hobby"> {{ghb}}</li>
+        </ul>
+        </form>
+    </div>  
+    
+    <script src="Vue.min.js"></script>
+    <script src="apps.js"></script>
+</body>
+</html>

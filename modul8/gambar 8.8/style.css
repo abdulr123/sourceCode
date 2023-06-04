@@ -1,0 +1,10 @@
+table {
+    background: lightyellow;
+    padding: 20px;
+}
+[type="password"] {
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin: 5px;
+}

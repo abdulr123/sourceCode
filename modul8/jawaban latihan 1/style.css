@@ -1,0 +1,17 @@
+.berita {
+    padding: 10px;
+    border-bottom: 1px dashed orange;
+    width: 400px;
+}
+i {
+    color: grey;
+}
+p {
+    text-align: justify;
+}
+b {
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+    color: lightgrey;
+}

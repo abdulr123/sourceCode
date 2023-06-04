@@ -1,0 +1,11 @@
+table {
+    background: lightgoldenrodyellow;
+    padding: 20px;
+    margin: auto;
+}
+[type="password"] {
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin: 5px;
+}

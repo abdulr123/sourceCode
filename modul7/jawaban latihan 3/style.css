@@ -1,0 +1,18 @@
+form {
+    display: table;
+    margin: 0 auto;
+}
+p {
+    text-align: center;
+    font-size: x-large;
+}
+input {
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    margin: 5px;
+}
+[type="text"] {
+    text-align: center;
+    font-weight: bolder;
+}

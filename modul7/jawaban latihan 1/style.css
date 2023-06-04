@@ -1,0 +1,15 @@
+table {
+    border: 1px royalblue solid;
+    width: 500px;
+    text-transform: capitalize;
+}
+td, th {
+    padding: 10px;
+}
+th {
+    background:royalblue;
+    color: white;
+}
+tr:nth-child(even) {
+    background: lightblue;
+}
